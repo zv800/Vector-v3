@@ -1,0 +1,173 @@
+local WSFDSFsyh7df96ytYHGUSI = Instance.new("ScreenGui")
+local Gradient = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Gradient_2 = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local Gradient_3 = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Gradient_4 = Instance.new("Frame")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+
+--Properties:
+
+WSFDSFsyh7df96ytYHGUSI.Name = "WSFD&(S^F(syh7df96yt&(YHGUSI"
+WSFDSFsyh7df96ytYHGUSI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+WSFDSFsyh7df96ytYHGUSI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Gradient.Name = "Gradient"
+Gradient.Parent = WSFDSFsyh7df96ytYHGUSI
+Gradient.AnchorPoint = Vector2.new(0.5, 0.5)
+Gradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient.BorderSizePixel = 0
+Gradient.Position = UDim2.new(0.5, 0, 0.5, 0)
+Gradient.Size = UDim2.new(0, 471, 0, 268)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))}
+UIGradient.Parent = Gradient
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Gradient
+
+Gradient_2.Name = "Gradient"
+Gradient_2.Parent = Gradient
+Gradient_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gradient_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient_2.BorderSizePixel = 0
+Gradient_2.Position = UDim2.new(-0.00106157118, 0, 0, 0)
+Gradient_2.Size = UDim2.new(0, 471, 0, 43)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(55, 206, 223)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 136, 229))}
+UIGradient_2.Parent = Gradient_2
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = Gradient_2
+
+Gradient_3.Name = "Gradient"
+Gradient_3.Parent = Gradient
+Gradient_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gradient_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient_3.BorderSizePixel = 0
+Gradient_3.Position = UDim2.new(-0.00106157118, 0, 0.160447761, 0)
+Gradient_3.Size = UDim2.new(0, 471, 0, 200)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(242, 157, 76)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(238, 201, 86))}
+UIGradient_3.Parent = Gradient_3
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Gradient_3
+
+TextLabel.Parent = Gradient
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.156716421, 0)
+TextLabel.Size = UDim2.new(0, 471, 0, 159)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Advanced Roblox script executor (have fun)"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Gradient_4.Name = "Gradient"
+Gradient_4.Parent = Gradient
+Gradient_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gradient_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient_4.BorderSizePixel = 0
+Gradient_4.Position = UDim2.new(-0.00106157118, 0, 0.75, 0)
+Gradient_4.Size = UDim2.new(0, 471, 0, 67)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(182, 141, 159)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(64, 96, 161))}
+UIGradient_4.Parent = Gradient_4
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = Gradient_4
+
+Button.Name = "Button"
+Button.Parent = Gradient_4
+Button.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0170212761, 0, 0.156716421, 0)
+Button.Size = UDim2.new(0, 454, 0, 45)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamMedium
+Button.Text = "Exit"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = Button
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Button
+Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = Shadow
+
+TextLabel_2.Parent = Button
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamMedium
+TextLabel_2.Text = "Exit"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = WSFDSFsyh7df96ytYHGUSI
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.378420234, 0, 0.335373312, 0)
+TextLabel_3.Size = UDim2.new(0, 470, 0, 43)
+TextLabel_3.Font = Enum.Font.TitilliumWeb
+TextLabel_3.Text = "thank you for using vector"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = WSFDSFsyh7df96ytYHGUSI
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.579246283, 0, 0.335373312, 0)
+TextLabel_4.Size = UDim2.new(0, 40, 0, 26)
+TextLabel_4.Font = Enum.Font.TitilliumWeb
+TextLabel_4.Text = "v3"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+-- Scripts:
+
+local function FXSM_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	script.Parent.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Enabled=false
+	end)
+end
+coroutine.wrap(FXSM_fake_script)()

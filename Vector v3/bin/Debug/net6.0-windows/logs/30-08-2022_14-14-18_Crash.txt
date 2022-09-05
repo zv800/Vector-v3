@@ -1,0 +1,127 @@
+[Code = 0xC0000005]
+[ExceptSymbol = NoSym]
+[Eip = 0x771B7A6E]
+[Eax = 0x00000002]
+[Ebx = 0x09C2E3DC]
+[Ecx = 0x24B7A120]
+[Edx = 0x00000000]
+[Esi = 0x34F72090]
+[Edi = 0x24B7A120]
+[Ebp = 0x09C2F880]
+[Esp = 0x09C2F878]
+[Dll Base = 0x00000000]
+
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x009476A6]  [BaseAddr: 0x00BA0000]
+[File: UnkFile]                                 [DynamicAddr: 0x350A7039]                       
+[File: UnkFile]                                 [DynamicAddr: 0x3502D462]                       
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018DB1FE]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018DC43D]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0188AEC5]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018CE44A]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018C1DFA]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0188EF0E]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0188E6D2]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018901FA]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0088E305]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0088ABCD]  [BaseAddr: 0x00BA0000]
+[File: UnkFile]                                 [DynamicAddr: 0x350B09F5]                       
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x009651A2]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00963D1C]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00961215]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00720BF1]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0095F30E]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00A01A1D]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01348210]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01347D71]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01340B4D]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01340C3A]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x02309D62]  [BaseAddr: 0x00BA0000]
+[File: UnkFile] [Module: KERNEL32.DLL]          [RebaseAddr: 0x0041FA29]  [BaseAddr: 0x75120000]
+[File: UnkFile] [Module: ntdll.dll]             [RebaseAddr: 0x00467A9E]  [BaseAddr: 0x77150000]
+[File: UnkFile] [Module: ntdll.dll]             [RebaseAddr: 0x00467A6E]  [BaseAddr: 0x77150000]
+--[[
+     Fly (Fixed)
+     By: WeAreDevs
+     Modded By: OpenGamerTips
+
+     Keybinds:
+     'E' to toggle flight.
+]]--
+
+repeat wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+local mouse = game.Players.LocalPlayer:GetMouse()
+repeat wait() until mouse
+  local plr = game.Players.LocalPlayer
+  local torso = plr.Character.Torso
+  local flying = true
+  local deb = true
+  local ctrl = {f = 0, b = 0, l = 0, r = 0}
+  local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+  local maxspeed = 50
+  local speed = 0
+
+  function Fly()
+    local bg = Instance.new("BodyGyro", torso)
+    bg.P = 9e4
+    bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+    bg.cframe = torso.CFrame
+    local bv = Instance.new("BodyVelocity", torso)
+    bv.velocity = Vector3.new(0,0.1,0)
+    bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+    repeat wait()
+      if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+        speed = speed+.5+(speed/maxspeed)
+        if speed > maxspeed then
+          speed = maxspeed
+        end
+      elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+        speed = speed-1
+        if speed < 0 then
+          speed = 0
+        end
+      end
+      if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+        bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+        lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+      elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+        bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+      else
+        bv.velocity = Vector3.new(0,0.1,0)
+      end
+      bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+    until not flying
+    ctrl = {f = 0, b = 0, l = 0, r = 0}
+    lastctrl = {f = 0, b = 0, l = 0, r = 0}
+    speed = 0
+    bg:Destroy()
+    bv:Destroy()
+  end
+  mouse.KeyDown:connect(function(key)
+  if key:lower() == "e" then
+    if flying then flying = false
+  else
+    flying = true
+    Fly()
+  end
+elseif key:lower() == "w" then
+  ctrl.f = 1
+elseif key:lower() == "s" then
+  ctrl.b = -1
+elseif key:lower() == "a" then
+  ctrl.l = -1
+elseif key:lower() == "d" then
+  ctrl.r = 1
+end
+end)
+mouse.KeyUp:connect(function(key)
+if key:lower() == "w" then
+  ctrl.f = 0
+elseif key:lower() == "s" then
+  ctrl.b = 0
+elseif key:lower() == "a" then
+  ctrl.l = 0
+elseif key:lower() == "d" then
+  ctrl.r = 0
+end
+end)
+Fly()

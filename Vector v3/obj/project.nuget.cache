@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "2eEpghmMdPjQSQxmAsbLq0rqJCrdu452oxI2LUiqGkqhgMYNMqlYclmFsHCjzvKeBn9ZY0dqHZ7sg78Pyju4tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\denve\\OneDrive\\Desktop\\Vector V3\\Vector v3\\Vector v3\\Vector v3.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\denve\\.nuget\\packages\\fctb\\2.16.24\\fctb.2.16.24.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FCTB 2.16.24' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FCTB",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

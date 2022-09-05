@@ -1,0 +1,67 @@
+[Code = 0xC0000005]
+[ExceptSymbol = NoSym]
+[Eip = 0x771B7A6E]
+[Eax = 0x00000002]
+[Ebx = 0x09CDDB5C]
+[Ecx = 0x2EC6F910]
+[Edx = 0x00000000]
+[Esi = 0x78EC2090]
+[Edi = 0x2EC6F910]
+[Ebp = 0x09CDF98C]
+[Esp = 0x09CDF984]
+[Dll Base = 0x00000000]
+
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x009476A6]  [BaseAddr: 0x00950000]
+[File: UnkFile]                                 [DynamicAddr: 0x78FF7039]                       
+[File: UnkFile]                                 [DynamicAddr: 0x78F7D462]                       
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018DB1FE]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018DC43D]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018CEC3A]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018C1DFA]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018A3C92]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0188E6D2]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018A3E02]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018D005B]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018C1DFA]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018A3C92]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0188E6D2]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018A3E02]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018D005B]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018C1DFA]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0188EF0E]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0188E6D2]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x018901FA]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0088E305]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0088ABCD]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00D877D9]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x0087C6F7]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x008660E9]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x00A01A1D]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01348210]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01347D71]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01340B4D]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x01340C3A]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: RobloxPlayerBeta.exe]  [RebaseAddr: 0x02309D62]  [BaseAddr: 0x00950000]
+[File: UnkFile] [Module: KERNEL32.DLL]          [RebaseAddr: 0x0041FA29]  [BaseAddr: 0x75120000]
+[File: UnkFile] [Module: ntdll.dll]             [RebaseAddr: 0x00467A9E]  [BaseAddr: 0x77150000]
+[File: UnkFile] [Module: ntdll.dll]             [RebaseAddr: 0x00467A6E]  [BaseAddr: 0x77150000]
+_G.Toggle_GUI = "z" -- keybind to open/close gui
+
+--[[ Credits - MrQuack#8010  Showcase - SMOKEZ SQUAD 
+
+]]
+
+--[[
+Hello and welcome to Auratus X. Auratus X is a free scrit hub that amasses scripts from popular exploiting/script sharing areas in the exploiting community. Auratus X is a reliable source because it supports over 150+ Games and has hundreds of scripts implanted.
+
+**The Default Keybind to open is Z , you can change it in the script, scroll down and you'll see it.**
+
+IF IT DOESNT LOAD JUST GIVE IT 5-10 Secs because it has hundreds of scripts.
+
+
+
+]]
+while not game:IsLoaded() do
+    wait(0.1)
+end
+loadstring(game:HttpGet("https://pastebin.com/raw/mtrRP1H1", true))()

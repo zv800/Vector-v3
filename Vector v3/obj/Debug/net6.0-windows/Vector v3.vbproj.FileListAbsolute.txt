@@ -1,0 +1,23 @@
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\Vector v3.exe
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\Vector v3.deps.json
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\Vector v3.runtimeconfig.json
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\Vector v3.dll
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\Vector v3.pdb
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\FastColoredTextBox.dll
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.vbproj.AssemblyReference.cache
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector_v3.Form1.resources
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.vbproj.GenerateResource.cache
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.AssemblyInfoInputs.cache
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.AssemblyInfo.vb
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.vbproj.CoreCompileInputs.cache
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.vbproj.CopyComplete
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.dll
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\refint\Vector v3.dll
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.pdb
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector v3.genruntimeconfig.cache
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\ref\Vector v3.dll
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\EasyExploits.dll
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\WeAreDevs_API.dll
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\bin\Debug\net6.0-windows\Vector v3.dll.config
+C:\Users\denve\OneDrive\Desktop\Vector V3\Vector v3\Vector v3\obj\Debug\net6.0-windows\Vector_v3.ScriptHub.resources
